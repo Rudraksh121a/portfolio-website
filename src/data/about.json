@@ -1,0 +1,28 @@
+{
+  "about": {
+    "title": "About Me",
+    "description": [
+      "I'm a DevOps and Cloud enthusiast with a strong foundation in Python development. My passion is building scalable, automated solutions for modern infrastructure and cloud-native applications. I specialize in CI/CD, cloud deployments, and automation using Python and industry-leading DevOps tools.",
+      "I thrive on solving real-world problems with cloud platforms, automation, and robust backend systems. My work is focused on delivering secure, efficient, and maintainable solutions for businesses and teams."
+    ]
+  },
+  "resume": {
+    "title": "Resume",
+    "driveLink": "https://drive.google.com/file/d/your-resume-file-id/view",
+    "downloadLink": "https://drive.google.com/file/d/your-resume-file-id/export?format=pdf",
+    "description": "Download or view my complete resume"
+  },
+  "sections": [
+    {
+      "title": "Education",
+      "icon": "BookOpen",
+      "items": [
+        {
+          "degree": "B.Tech in Artificial Intelligence and Machine Learning",
+          "institution": "Jawaharlal Institute of Technology",
+          "year": "2020 - 2024"
+        }
+      ]
+    }
+  ]
+}
