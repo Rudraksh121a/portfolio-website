@@ -37,6 +37,7 @@ export default function Contact() {
                   <div>
                     <p className="text-sm text-gray-400 mb-1">Email Address</p>
                     <a
+                      type="email"
                       href={`mailto:${contactData.contact.email}`}
                       className="text-gray-200 hover:text-orange-400 transition-colors font-medium"
                     >

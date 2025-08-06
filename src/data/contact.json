@@ -1,11 +1,11 @@
 {
-    "contact": {
-        "email": "your.email@example.com",
-        "social": {
-            "github": "https://github.com/yourusername",
-            "linkedin": "https://linkedin.com/in/yourusername",
-            "twitter": "https://twitter.com/yourusername",
-            "medium": "https://medium.com/@yourusername"
-        }
+  "contact": {
+    "email": "rudrakshkanungo2022@gmail.com",
+    "social": {
+      "github": "https://github.com/Rudraksh121a",
+      "linkedin": "https://www.linkedin.com/in/rudraksh-kanungo/",
+      "twitter": "https://x.com/Rudraks42272163",
+      "medium": "https://medium.com/@rudrakshkanungo2022"
     }
+  }
 }
