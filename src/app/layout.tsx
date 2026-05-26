@@ -13,19 +13,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rudraksh Kanungo - DevOps & Cloud Engineer Portfolio",
+  title: "Rudraksh Kanungo - Software Engineer & Tech Innovator",
   description:
-    "DevOps and Cloud enthusiast with expertise in Python development, CI/CD, cloud deployments, and automation. Building scalable, automated solutions for modern infrastructure.",
+    "Portfolio of Rudraksh Kanungo, a Software Engineer specializing in Web Development (Next.js, React), Mobile Apps (React Native, Flutter), DevOps, and Cloud deployments.",
   keywords:
-    "DevOps, Cloud Engineer, Python Developer, CI/CD, AWS, Docker, Kubernetes, Automation, Infrastructure",
+    "Rudraksh Kanungo, Software Engineer, Web Developer, Mobile App Developer, Next.js, React Native, Python, CI/CD, AWS, Cloud, Developer Portfolio",
   authors: [{ name: "Rudraksh Kanungo" }],
   creator: "Rudraksh Kanungo",
   publisher: "Rudraksh Kanungo",
-  robots: "index, follow",
+  alternates: {
+    canonical: "https://rudrakshkanungo.xyz",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
-    title: "Rudraksh Kanungo - DevOps & Cloud Engineer",
+    title: "Rudraksh Kanungo - Software Engineer",
     description:
-      "DevOps and Cloud enthusiast specializing in Python development, CI/CD, and cloud automation solutions.",
+      "Software Engineer specializing in Web Development, Mobile Apps, Python, and Cloud deployments. View my portfolio and projects.",
     url: "https://rudrakshkanungo.xyz",
     siteName: "Rudraksh Kanungo Portfolio",
     type: "website",
@@ -33,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rudraksh Kanungo - DevOps & Cloud Engineer",
+    title: "Rudraksh Kanungo - Software Engineer",
     description:
-      "DevOps and Cloud enthusiast specializing in Python development, CI/CD, and cloud automation solutions.",
+      "Software Engineer specializing in Web Development, Mobile Apps, Python, and Cloud deployments. View my portfolio and projects.",
     creator: "@Rudraks42272163",
   },
 };

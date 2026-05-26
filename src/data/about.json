@@ -2,8 +2,8 @@
   "about": {
     "title": "About Me",
     "description": [
-      "I'm a DevOps and Cloud enthusiast with a strong foundation in Python development. My passion is building scalable, automated solutions for modern infrastructure and cloud-native applications. I specialize in CI/CD, cloud deployments, and automation using Python and industry-leading DevOps tools.",
-      "I thrive on solving real-world problems with cloud platforms, automation, and robust backend systems. My work is focused on delivering secure, efficient, and maintainable solutions for businesses and teams."
+      "I'm a versatile Software Engineer driven by a passion for building seamless web and mobile experiences along with robust backend infrastructure. My expertise spans creating high-performance applications using Next.js and React, crafting cross-platform mobile apps with React Native and Flutter, and developing scalable Python solutions.",
+      "Beyond development, I have a strong foundation in DevOps and Cloud architecture, specializing in CI/CD, automation, and AWS and Azure cloud deployments. I thrive on translating complex client requirements into scalable, secure, and maintainable technological realities."
     ]
   },
   "resume": {

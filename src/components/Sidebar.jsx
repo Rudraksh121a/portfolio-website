@@ -43,11 +43,11 @@ export default function Sidebar({
       label: "Resume",
       icon: <BookOpen className="w-4 h-4" />,
     },
-    // {
-    //   id: "experience",
-    //   label: "Experience",
-    //   icon: <Award className="w-4 h-4" />,
-    // },
+    {
+      id: "experience",
+      label: "Experience",
+      icon: <Award className="w-4 h-4" />,
+    },
     { id: "contact", label: "Contact", icon: <Mail className="w-4 h-4" /> },
   ];
 

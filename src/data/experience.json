@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "role": "Web Developer",
+        "company": "Freelance Client Project",
+        "period": "Recent",
+        "responsibilities": [
+            "Developed a modern, responsive website for collage",
+            "Ensured mobile responsiveness and implemented modern UI/UX principles"
+        ]
+    },
+    {
+        "id": 2,
+        "role": "Mobile App Developer",
+        "company": "Freelance Client Project",
+        "period": "Recent",
+        "responsibilities": [
+            "Designed and developed a custom Bill Manager mobile application tailored to specific client needs",
+            "Focused on creating a smooth, user-friendly interface optimized for mobile devices"
+        ]
+    }
+]

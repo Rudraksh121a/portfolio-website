@@ -2,52 +2,50 @@ import {
   BookOpen,
   Award,
   Star,
-  Mail,
-  Phone,
-  MapPin,
-  Github,
-  Linkedin,
-  Twitter,
-  Globe,
-  FileText,
-  Download,
-  ExternalLink,
+  TerminalSquare,
 } from "lucide-react";
 import aboutData from "../../data/about.json";
 
 const iconMap = {
   BookOpen,
   Award,
+  TerminalSquare,
 };
 
 export default function About() {
   return (
-    <div className="space-y-6 sm:space-y-8">
+    <div className="space-y-6 sm:space-y-8 animate-in fade-in duration-700">
       <div>
-        <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent mb-4 sm:mb-6">
+        <h1 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-r from-orange-400 via-red-400 to-pink-500 bg-clip-text text-transparent mb-6 sm:mb-8 tracking-tight">
           {aboutData.about.title}
         </h1>
 
-        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4 sm:p-6 mb-4 sm:mb-6 hover:border-orange-800/30 transition-colors">
-          {aboutData.about.description.map((para, idx) => (
-            <p key={idx} className="text-gray-300 leading-relaxed mb-4">
-              {para}
-            </p>
-          ))}
+        <div className="bg-gray-900/80 backdrop-blur-sm border border-gray-800 rounded-2xl p-6 sm:p-8 mb-8 sm:mb-10 hover:border-orange-800/40 transition-all duration-300 shadow-lg relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-orange-500/10 to-transparent rounded-bl-full pointer-events-none" />
+
+          <div className="space-y-5 relative z-10">
+            {aboutData.about.description.map((para, idx) => (
+              <p
+                key={idx}
+                className="text-gray-300 leading-relaxed text-base sm:text-lg font-light tracking-wide"
+              >
+                {para}
+              </p>
+            ))}
+          </div>
         </div>
 
-       
-        <div className="w-full max-w-4xl mx-auto">
+        <div className="w-full max-w-4xl mx-auto space-y-6">
           {aboutData.sections.map((section, idx) => {
             const Icon = iconMap[section.icon] || Award;
 
             return (
               <div
                 key={idx}
-                className="bg-gradient-to-br from-gray-900 to-gray-800 border border-orange-800/30 rounded-xl p-6 sm:p-8 shadow-xl hover:border-orange-600/50 transition-all duration-300 hover:shadow-2xl"
+                className="bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-800/80 rounded-2xl p-6 sm:p-8 shadow-xl hover:border-orange-600/40 transition-all duration-300 group"
               >
-                <h3 className="text-2xl sm:text-3xl font-bold text-transparent bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text mb-6 flex items-center">
-                  <Icon className="w-8 h-8 mr-3 text-orange-400" />
+                <h3 className="text-2xl sm:text-3xl font-bold text-transparent bg-gradient-to-r from-orange-300 to-red-400 bg-clip-text mb-6 flex items-center tracking-tight">
+                  <Icon className="w-7 h-7 mr-3 text-orange-500 group-hover:scale-110 transition-transform duration-300" />
                   {section.title}
                 </h3>
 

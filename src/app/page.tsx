@@ -54,8 +54,8 @@ export default function App() {
         return <Certifications />;
       case "resume":
         return <Resume />;
-      // case "experience":
-      //   return <Experience />;
+      case "experience":
+        return <Experience />;
       case "contact":
         return <Contact />;
       default:
